@@ -153,7 +153,7 @@ h5 {
   justify-content: center;
   margin-top: 25px;
   margin-bottom: 40px;
-  font-family: stonewalls;
+  font-family: "StoneWalls", sans-serif;
   font-size: 300%;
 }
 
@@ -170,14 +170,14 @@ h5 {
 
 h6 {
   font-family: "SpaceMono";
-  font-size: 75%;
+  font-size: 90%;
   font-weight: lighter;
   color: rgba(255, 255, 255, 0.5);
 }
 
 h7 {
   font-family: "SpaceMono";
-  font-size: 100%;
+  font-size: 70%;
   font-weight: lighter;
   color: rgba(255, 255, 255, 1);
 }
@@ -206,11 +206,20 @@ label {
     letter-spacing: 2px;
 }
 
+#keep_in_touch {
+  display: block;
+  margin: auto;
+  margin-top: 5%;
+  width: 580px;
+  font-family: "StoneWalls", sans-serif;
+
+}
 .c_body {
     display: block;
     margin: auto;
     margin-top: 5%;
     width: 580px;
+    font-family: "SpaceMono", sans-serif;
 }
 
 form {
