@@ -40,10 +40,11 @@ body {
   cursor: url(../images/cursor1.png), auto;
   background-color: #000;
   background-image: url(../images/Starry.gif);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: #ddd;
+  background-position-x: center;
 }
 
 a {
