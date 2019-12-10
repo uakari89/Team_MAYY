@@ -145,7 +145,7 @@ h3 {
   display: flex;
   justify-content: center;
   margin-top: -25px;
-  font-family: stonewalls;
+  font-family: "StoneWalls";
   font-size: 200%;
 }
 
@@ -170,17 +170,25 @@ h5 {
 }
 
 h6 {
-  font-family: "SpaceMono";
+  font-family: "SpaceMono", sans-serif;
   font-size: 90%;
   font-weight: lighter;
   color: rgba(255, 255, 255, 0.5);
 }
 
 h7 {
-  font-family: "SpaceMono";
+  font-family: "SpaceMono", sans-serif;
   font-size: 70%;
   font-weight: lighter;
   color: rgba(255, 255, 255, 1);
+}
+
+h8 {display: flex;
+justify-content: center;
+margin-top: 100px;
+font-family: "StoneWalls", sans-serif;
+font-size: 150%;
+
 }
 
 .social {
@@ -189,8 +197,7 @@ h7 {
   justify-content: space-around;
   margin-left: 36%;
   margin-right: 36%;
-  margin-top: 50px;
-  height: 75px;
+  height: 50px;
 }
 
 .social img {
