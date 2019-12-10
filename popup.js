@@ -6,8 +6,8 @@ window.onload = function() {
           var desc = container.getElementsByTagName("div")[0];
 
           img.onclick = function() {
-            if (desc.style.display != "block") {
-              desc.style.display = "block";
+            if (desc.style.display != "flex") {
+              desc.style.display = "flex";
             }
             else {
               desc.style.display = "none";
