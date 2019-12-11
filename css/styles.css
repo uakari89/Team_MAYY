@@ -184,6 +184,8 @@ h5 {
   padding-right: auto;
   text-align: justify;
   font-family: "SpaceMono", sans-serif;
+  font-size: 80%;
+  color: rgba(255, 255, 255, 0.6);
   /* word-break: break-all; */
 }
 
