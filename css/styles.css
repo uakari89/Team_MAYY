@@ -174,16 +174,35 @@ h5 {
 }
 
 #aboutUs {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 25% 25%;
+  align-items: start;
+  grid-column-gap: 30px;
   margin-top: 25px;
   margin-bottom: 50px;
   padding-left: auto;
   padding-right: auto;
+  text-align: justify;
   font-family: "SpaceMono", sans-serif;
 }
 
+#marta {
+  grid-column-start: 1;
+}
+
+#agnes {
+  grid-column-start: 2;
+}
+
+#yalan {
+  grid-column-start: 3;
+}
+
+#yasmin {
+  grid-column-start: 4;
+}
+*/
 h6 {
   font-family: "SpaceMono", sans-serif;
   font-size: 90%;
