@@ -251,7 +251,7 @@ label {
 #keep_in_touch {
   display: block;
   margin: auto;
-  margin-top: 5%;
+  margin-top: 4%;
   width: 580px;
   font-family: "StoneWalls", sans-serif;
 
@@ -259,14 +259,14 @@ label {
 .c_body {
     display: block;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 3%;
     width: 580px;
     font-family: "SpaceMono", sans-serif;
 }
 
 form {
     margin:0 auto;
-    margin-top: 15%;
+    margin-top: 5%;
     width: 460px;
 }
 
