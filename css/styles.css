@@ -114,7 +114,6 @@ div {
 #planets {
   display: flex;
   flex-direction: column;
-  align-items: center;
   background-position: center;
   background-size: contain;
   margin-bottom: 40px;
@@ -185,6 +184,7 @@ h5 {
   padding-right: auto;
   text-align: justify;
   font-family: "SpaceMono", sans-serif;
+  /* word-break: break-all; */
 }
 
 #marta {
@@ -205,14 +205,14 @@ h5 {
 */
 h6 {
   font-family: "SpaceMono", sans-serif;
-  font-size: 90%;
+  font-size: 80%;
   font-weight: lighter;
   color: rgba(255, 255, 255, 0.5);
 }
 
 h7 {
   font-family: "SpaceMono", sans-serif;
-  font-size: 70%;
+  font-size: 80%;
   font-weight: lighter;
   color: rgba(255, 255, 255, 1);
 }
